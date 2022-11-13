@@ -29,7 +29,11 @@ Ideally, users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+###Desktop View
+
+![Desktop View Screenshot](images/desktop.png)
+
+###Mobile View
 
 ### Links
 

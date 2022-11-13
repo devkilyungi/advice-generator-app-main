@@ -19,9 +19,9 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
 
 ### The challenge
 
-Your challenge is to build out this advice generator app using the [Advice Slip API](https://api.adviceslip.com) and get it looking as close to the design as possible.
+My challenge was to build out this advice generator app using the [Advice Slip API](https://api.adviceslip.com) and get it looking as close to the design as possible.
 
-Your users should be able to:
+Ideally, users should be able to:
 
 - View the optimal layout for the app depending on their device's screen size
 - See hover states for all interactive elements on the page
@@ -37,6 +37,12 @@ Your users should be able to:
 
 ## My process
 
+- I first created the card as a 'div' element. Inside the card there are four sections.
+- The advice-id is positioned at the top, followed by the advice-text, then a pattern divider, and finally a button.
+- I used the absolute position property in conjunction with a translate property on both the x and y axis to center the card and the attribution.
+- I also used flexbox to make the card layout a bit flexible.
+- For logic I made use of JavaScript's async/await feature to fetch data from the adviceslip API. I then used an event listener to listen for clicks and perform reset or loading of new advice to the DOM elements.
+
 ### Built with
 
 - Semantic HTML5 markup
@@ -46,11 +52,15 @@ Your users should be able to:
 
 ### What I learned
 
+- I had my first real encounter with promises using modern JS. Wrapping my head around the objects returned and how to access them was my biggest challenge and learning point.
+
 ### Continued development
+
+- To further enhance my skills as a JavaScript Developer, I will dive deeper into promises and networking components to better understand how communication on the web works.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- [Async/await](https://javascript.info/async-await) - This helped me get a basic understanding of promises. I really liked this since it is comfortable to use, and relativeley easy to understand. I will use it going forward.
 
 ## Author
 

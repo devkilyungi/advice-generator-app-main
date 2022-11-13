@@ -14,9 +14,9 @@ async function getAdvice() {
 getAdvice(); //when page loads, load the first advice
 
 button.addEventListener('click', () => {
-  if (!id && !advice) getAdvice(); //if empty load piece of advice
+  if (!id && !advice) getAdvice(); //if empty, load piece of advice
 
-  //if not empty reset and load piece of advice
+  //if not empty reset and load next piece of advice
   id.innerText = 'Advice #';
   advice.innerText = '';
   getAdvice();

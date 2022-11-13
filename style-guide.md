@@ -20,13 +20,6 @@ The designs were created to the following widths:
 - Dark Grayish Blue: hsl(217, 19%, 24%)
 - Dark Blue: hsl(218, 23%, 16%)
 
-## Typography
-
-### Body Copy
-
-- Font size (quote): 24px
-
 ### Font
 
 - Family: [Manrope](https://fonts.google.com/specimen/Manrope)
-- Weights: 800

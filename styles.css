@@ -24,84 +24,80 @@ html {
   background-color: var(--dark-blue);
 }
 
-body{
+body {
   height: 100vh;
   width: 100vw;
 }
 
-.card{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  flex-grow: 1;
-  max-height: 300px;
-  max-width: 450px;
-  background-color: var(--dark-grayish-blue);
-  border-radius: 10px;
-  text-align: center;
-  padding: 35px;
+.card {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
+  max-height: 300px;
+  max-width: 450px;
+  padding: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+  background-color: var(--dark-grayish-blue);
 }
 
-.card #advice-id{
-  color: var(--neon-green);
+.card #advice-id {
+  padding-bottom: 25px;
   font-size: 2vh;
-  padding: 0  0 25px 0;
+  font-weight: 800;
   letter-spacing: 2px;
   text-transform: uppercase;
-  font-weight: 800;
+  color: var(--neon-green);
 }
 
-.card #advice-text{
-  color: var(--light-cyan);
+.card #advice-text {
+  padding-bottom: 75px;
   font-size: 3vh;
   font-weight: bold;
-  padding: 0 0 75px 0;
+  color: var(--light-cyan);
 }
 
-.card #pattern-divider{
-  height: auto;
-  width: 80%;
+.card #pattern-divider {
   position: absolute;
   bottom: 10vh;
+  height: auto;
+  width: 80%;
 }
 
-button{
+button {
   height: 50px;
   width: 50px;
-  border-radius: 50%;
-  background-color: var(--neon-green);
   outline: none;
   border: none;
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 50%;
+  background-color: var(--neon-green);
   position: absolute;
   bottom: -25px;
+  cursor: pointer;
 }
 
-button #dice{
+button #dice {
   height: 38%;
 }
 
-
-
-
-
 .attribution {
-  font-size: 14px;
-  color: var(--light-cyan);
-  letter-spacing: 1px;
   position: absolute;
-  bottom: 5vh;
   left: 50%;
+  bottom: 5vh;
+  font-size: 14px;
+  letter-spacing: 1px;
   transform: translate(-50%);
+  color: var(--light-cyan);
 }
 
 .attribution a {
-  color: var(--neon-green);
   font-size: 13px;
+  color: var(--neon-green);
 }

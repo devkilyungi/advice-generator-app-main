@@ -64,7 +64,7 @@ Ideally, users should be able to:
 
 ### Useful resources
 
-- [Async/await](https://javascript.info/async-await) - This helped me get a basic understanding of promises. I really liked this since it is comfortable to use, and relativeley easy to understand. I will use it going forward.
+- [Async/await](https://javascript.info/async-await) - This helped me get a basic understanding of promises. I really liked this since it is comfortable to use, and relatively easy to understand. I will use it going forward.
 
 ## Author
 

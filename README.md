@@ -70,4 +70,4 @@ Ideally, users should be able to:
 
 ## Author
 
-- Twitter - [@devkilyungi](https://www.twitter.com/devkilyungi)
+- Twitter - [@devkilyungi](https://www.twitter.com/vkilyungi)

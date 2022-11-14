@@ -81,6 +81,16 @@ button {
   position: absolute;
   bottom: -25px;
   cursor: pointer;
+  transition: all .3s ease-in-out;
+}
+
+button:hover {
+  height: 44px;
+  width: 44px;
+  bottom: -22px;
+  box-shadow: 0px 0px 10px 10px rgba(82, 255, 168, 0.3);
+  -webkit-box-shadow: 0px 0px 10px 10px rgba(82, 255, 168, 0.3);
+  -moz-box-shadow: 0px 0px 10px 10px rgba(82, 255, 168, 0.3);
 }
 
 button #dice {
@@ -100,4 +110,49 @@ button #dice {
 .attribution a {
   font-size: 13px;
   color: var(--neon-green);
+}
+
+@media only screen and (max-width: 768px) {
+  .card {
+    padding: 25px;
+    border-radius: 8px;
+    min-height: 150px;
+    min-width: 250px;
+  }
+
+  .card #advice-id {
+    padding-bottom: 25px;
+    font-size: 1.5vh;
+    letter-spacing: 2px;
+  }
+
+  .card #advice-text {
+    padding-bottom: 45px;
+    font-size: 1.75vh;
+  }
+
+  .card #pattern-divider {
+    bottom: 4vh;
+  }
+
+  button {
+    height: 30px;
+    width: 30px;
+    bottom: -15px;
+  }
+
+  button #dice {
+    height: 38%;
+  }
+
+  .attribution {
+    bottom: 15vh;
+    font-size: 11px;
+    letter-spacing: 1.5px;
+    line-height: 18px;
+  }
+
+  .attribution a {
+    font-size: 11px;
+  }
 }

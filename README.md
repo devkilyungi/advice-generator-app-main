@@ -29,11 +29,13 @@ Ideally, users should be able to:
 
 ### Screenshot
 
-###Desktop View
+### Desktop View
 
 ![Desktop View Screenshot](images/desktop.png)
 
-###Mobile View
+### Mobile View
+
+![Mobile View Screenshot](images/mobile.png)
 
 ### Links
 
